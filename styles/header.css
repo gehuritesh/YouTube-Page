@@ -66,6 +66,43 @@
         background-color: rgb(237, 237, 237);
         margin-left: -1px;
         margin-right: 10px;
+        position: relative;
+    }
+    .sb .tooltip,
+    .vb .tooltip,
+    .create .tooltip,
+    .notifications .tooltip
+    {
+        font-family: Roboto,Arial;
+        position: absolute;
+        background-color: grey;
+        color: white;
+        padding-top: 4px;
+        padding-left: 8px;
+        padding-right: 8px;
+        padding-bottom: 4px;
+        border-radius: 2px;
+        bottom: -30px;
+        opacity: 0;
+        transition: opacity 0.15s;
+        pointer-events: none;
+        white-space: nowrap;
+    }
+    .sb,
+    .vb,
+    .create,
+    .notifications
+    {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .sb:hover .tooltip,
+    .vb:hover .tooltip,
+    .create:hover .tooltip,
+    .notifications:hover .tooltip
+    {
+        opacity: 1;
     }
     .vb{
         height: 40px;
@@ -73,6 +110,7 @@
         border-radius: 20px;
         border: none;
         background-color: rgb(244, 244, 244);
+        position: relative;
     }
     .searchbutton
     {
