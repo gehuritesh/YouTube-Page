@@ -1,0 +1,41 @@
+ p{
+        font-family: Arial;
+        margin-top: 0px;
+        margin-bottom: 0px;
+       }
+       .image
+       {
+        width: 100px;
+        height: 100px;
+        object-fit: cover;
+        display: block;
+        margin-bottom: 5px;
+       }
+       .name
+       {
+        font-weight: bold;
+        font-size: small;
+       }
+       .friends
+       {
+        font-size: 8px;
+        color: grey;
+        margin-bottom: 5px;
+       }
+       button
+       {
+        font-size: 8px;
+        color: white;
+        padding: 5px;
+        background-color: #1877F2;
+        border: none;
+        border-radius: 5px;
+       }
+       div
+       {
+        display: inline-block;
+        width: 100px;
+        box-shadow: 1px 1px 15px rgba(0,0,0,0.6);
+        padding: 10px;
+        border-radius: 5px;
+       }
